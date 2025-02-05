@@ -3,24 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="Veterinarian Decision Support System to reduce workload, minimize diagnostic errors, and Enhance the decision-making process in veterinary practices by recommend possible diagnostic tests and treatments">
+  <meta name="keywords" content="VetDSS, VetDSS Blog">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+  <title>VetDSS Blog</title>
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-PYVRSFMDRL');
-  </script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -29,10 +21,8 @@
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -47,83 +37,38 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
-            <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
-            </span>
-          </div>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
-          </div>
+          <h1 class="title is-1 publication-title">VetDSS: Decision Support System For Veterinarians </h1>
 
           <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link. -->
+              <!-- Colab Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href="https://colab.research.google.com/drive/1Iyac5p0w0t_sLPmJwqWQJzaNmpOLQ9Bi?usp=sharing"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper</span>
-                </a>
+                    <i class="fa fa-code"></i>
               </span>
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
+                  <span>Colab Code</span>
                 </a>
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href="https://github.com/newtonhaven/vet-dss-llm"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code</span>
+                  <span>Github Code</span>
                   </a>
               </span>
               <!-- Dataset Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                <a href="datasets.html"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="far fa-images"></i>
+                      <i class="fa fa-database"></i>
                   </span>
-                  <span>Data</span>
+                  <span>Datasets</span>
                   </a>
             </div>
 
@@ -137,14 +82,8 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        <span class="dnerf">VetDSS</span> helps veterinars to reduce workload, minimize diagnostic errors, and Enhance the decision-making process in veterinary practices by recommend possible diagnostic tests and treatments.
       </h2>
     </div>
   </div>
@@ -152,51 +91,42 @@
 
 <section class="section">
   <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Example</h2>
+        <div class="publication-video">
+            <img src="./static/images/example.gif" alt="Example GIF" width="960" height="569">
+        </div>
+      </div>
+    </div>
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            g robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
-          </p>
+            <p>
+            VetDSS is a decision support system designed to assist veterinarians in their daily practice.
+            </p>
+            <p>
+            Our system helps reduce workload, minimize diagnostic errors, and enhance the decision-making process by recommending possible diagnostic tests and treatments.
+            By leveraging advanced algorithms and a comprehensive database, VetDSS provides accurate and timely suggestions to support veterinarians in delivering high-quality care.
+            </p>
+            <p>
+            VetDSS integrates seamlessly into veterinary practices, offering an intuitive interface and robust functionality. It is designed to be a valuable tool for both experienced veterinarians and those new to the field, ensuring that all users can benefit from its capabilities.
+            </p>
         </div>
       </div>
     </div>
+    <br><br>
     <!--/ Abstract. -->
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <!-- Visual Effects. -->
         <div class="column">
           <div class="content">
-            <h2 class="title is-3">Visual Effects</h2>
+            <h2 class="title is-3">Performance</h2>
             <p>
-              Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-              would be impossible without nerfies since it would require going through a wall.
+              Using VetDSS, which leverages 4-bit quantization and the Mistral 7B LLM model, you can achieve more efficient and better performance in veterinary decision support.
             </p>
           </div>
         </div>
@@ -204,12 +134,15 @@
   
         <!-- Matting. -->
         <div class="column">
-          <h2 class="title is-3">Matting</h2>
+          <h2 class="title is-3">Dataset</h2>
           <div class="columns is-centered">
             <div class="column content">
               <p>
-                As a byproduct of our method, we can also solve the matting problem by ignoring
-                samples that fall outside of a bounding box during rendering.
+                For testing, we used the following datasets: 
+                <a href="https://www.huggingface.co/datasets/infinite-dataset-hub/VetPetCare">VetPetCare</a>, 
+                <a href="https://www.kaggle.com/datasets/gracehephzibahm/animal-disease">Animal Disease</a>, 
+                and data from the <a href="https://www.aspca.org/">ASPCA</a>. 
+                Additionally, VetDSS can be fed with self-collected data to enhance its performance.
               </p>
             </div>
   
@@ -218,17 +151,7 @@
       </div>
       <!--/ Matting. -->
     </div>
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
+<br><br>
     <!-- PRESENTATION. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -243,11 +166,7 @@
     <!--/ PRESENTATION. -->
   </div>
 </section>
-
-
-
-
-
+<br><br>
 <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
