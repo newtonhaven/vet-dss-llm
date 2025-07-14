@@ -1,5 +1,6 @@
 # VetDSS: Veterinarian Decision Support System
 VetDSS helps veterinars to reduce workload, minimize diagnostic errors, and Enhance the decision-making process in veterinary practices by recommend possible diagnostic tests and treatments. 
+Uses Mistral 7B
 
 # [Blog Website](https://newtonhaven.github.io/vet-dss-llm/)
 Check out [blog](https://newtonhaven.github.io/vet-dss-llm/) for more information. 
