@@ -1,0 +1,823 @@
+[
+  {
+    "disease": "Asthma",
+    "symptoms": [
+      "Difficulty breathing",
+      "Blue or purple tinge to tongue or gums",
+      "Lethargy",
+      "Loss of appetite"
+    ],
+    "treatments": [
+      "Theophylline\u00a0andTerbutaline\u00a0may be recommended for clearing up the airways.",
+      "\u00a0Anti-Inflammatory tabs such asPrednisolone\u00a0are prescribed to reduce pain and inflammation."
+    ]
+  },
+  {
+    "disease": "Alopecia",
+    "symptoms": [
+      "Hair loss and bald patches",
+      "In some cases, scaly, inflamed, or discolored skin.",
+      "Some dogs will start scratching or chewing at the affected areas, and others become lethargic"
+    ],
+    "treatments": [
+      "Alopecia resulting from allergies can be treated withantihistamines for dogs.",
+      "\u00a0Vets may also recommendskin and coat medications\u00a0and supplements to reduce hair loss."
+    ]
+  },
+  {
+    "disease": "Anemia",
+    "symptoms": [
+      "Pallor, or lack of pigmentation in the gums, tongue, and inside the ear",
+      "Lethargy"
+    ],
+    "treatments": [
+      "Anemia is a condition, which means its treatment depends on what's causing the condition.",
+      "\u00a0Anemia caused by ehrlichiosis would need specific medications such as doxycycline."
+    ]
+  },
+  {
+    "disease": "Arthritis",
+    "symptoms": [
+      "Limping",
+      "Muscle loss",
+      "Difficulty sitting",
+      "Lethargy",
+      "Less playful",
+      "Grouchiness",
+      "Unable to jump up"
+    ],
+    "treatments": [
+      "Anti-inflammatory medications such asRimadyl\u00a0may be recommended to reduce pain and inflammation.",
+      "\u00a0Joint supplements for dogs such asJoint Max Triple Strength\u00a0that contains chondroitin, MSM, and Glucosamine may also be recommended."
+    ]
+  },
+  {
+    "disease": "Cancer",
+    "symptoms": [
+      "Lumps or bumps under the skin",
+      "Changes in eating habits",
+      "Increased urination and/or drinking",
+      "Difficulty exercising",
+      "Weight loss",
+      "Depression",
+      "Discharge and sores",
+      "Difficulty urinating"
+    ],
+    "treatments": [
+      "Depending on the type and stage, radiation therapy and surgical interventions may be recommended.",
+      "\u00a0Certain types of cancer can also be managed medically with medications such as Leukeran."
+    ]
+  },
+  {
+    "disease": "Carnassial Tooth Abscess",
+    "symptoms": [
+      "Swelling",
+      "Discharge below the eye",
+      "Fever",
+      "Loss of appetite",
+      "Depression"
+    ],
+    "treatments": [
+      "Antibiotics\u00a0are often recommended to control the infection."
+    ]
+  },
+  {
+    "disease": "Cataracts",
+    "symptoms": [
+      "Cloudy or cracked looking pupils",
+      "Redness, swelling, or inflammation of the eye",
+      "Impaired vision",
+      "Dizziness",
+      "Vomiting",
+      "Pacing",
+      "Restlessness",
+      "Less movement"
+    ],
+    "treatments": [
+      "Apart from surgical removal of the cataract, vets may recommend eye supplements such asOcu-GLO\u00a0for dogs.",
+      "\u00a0Vets may also recommend othereye care medications\u00a0such as anti-inflammatory eye drops."
+    ]
+  },
+  {
+    "disease": "Cherry Eye",
+    "symptoms": [
+      "Red, thick, irritated bump in the corner of the eye",
+      "Rubbing or scratching the eye"
+    ],
+    "treatments": [
+      "While massage therapy may work, it should be recommended and done by a vet due to the high risk of trauma.",
+      "Only in certain cases, surgery is recommended to treat the problem"
+    ]
+  },
+  {
+    "disease": "Coccidia",
+    "symptoms": [
+      "Diarrhea mixed with mucus or blood",
+      "Persistent diarrhea"
+    ],
+    "treatments": [
+      "Vets usually recommend Sulfadimethoxine medications such asAlbon Liquid."
+    ]
+  },
+  {
+    "disease": "Congestive Heart Failure",
+    "symptoms": [
+      "Intolerance of exercise",
+      "Excessive panting",
+      "Coughing",
+      "Heart murmur"
+    ],
+    "treatments": [
+      "Medications such asVetmedin\u00a0is often recommended to improve life expectancy.",
+      "\u00a0Vets often prescribe diuretics such as Lasix \u00a0(Furosemide) andspironolactone\u00a0to remove fluid buildup.",
+      "\u00a0Vets May also recommend vasodilators and ACE inhibitors."
+    ]
+  },
+  {
+    "disease": "Dandruff",
+    "symptoms": [
+      "Skin flakes",
+      "Dry, irritated skin",
+      "Excessive scratching, biting, and licking"
+    ],
+    "treatments": [
+      "Special medicated shampoos such asTropiclean Oxy Med Oatmeal\u00a0may be recommended."
+    ]
+  },
+  {
+    "disease": "Degenerative Myelopathy",
+    "symptoms": [
+      "Difficulty getting up or sitting down",
+      "Difficulty walking",
+      "Clumsiness",
+      "Trembling hind legs",
+      "During the final stages, dogs may experience difficulty breathing, incontinence, organ failure, and muscle atrophy"
+    ],
+    "treatments": [
+      "Physical therapy, special exercises, and acupuncture may be recommended",
+      "\u00a0Often treated withvitamin supplements for dogs."
+    ]
+  },
+  {
+    "disease": "Demodectic Mange",
+    "symptoms": [
+      "Persistent itching",
+      "Hair loss",
+      "Bald spots",
+      "Alopecia",
+      "Scabbing",
+      "Sores",
+      "Lesions",
+      "Redness",
+      "Scaling"
+    ],
+    "treatments": [
+      "Usually treated with special shampoos and dips.",
+      "\u00a0Certainflea and tick medications for dogs\u00a0can also work in treating demodectic mange."
+    ]
+  },
+  {
+    "disease": "Ear Infection",
+    "symptoms": [
+      "Hearing loss",
+      "Inflammation and redness around the ear canal",
+      "Milky, odorous discharge",
+      "Unusual darting eye movement (nystagmus)",
+      "Dragging infected ear on furniture or floor",
+      "Shaking their head"
+    ],
+    "treatments": [
+      "Antibacterial and antifungal ear drops such asMometamax\u00a0may be prescribed.",
+      "\u00a0Vets may also recommend NSAIDs to manage the pain."
+    ]
+  },
+  {
+    "disease": "Ear Mites",
+    "symptoms": [
+      "Brown, coffee ground-like particles",
+      "Swelling in the ear",
+      "Head shaking",
+      "Scratching",
+      "Odor"
+    ],
+    "treatments": [
+      "Specialear mite treatment kits \u00a0to safely administer pyrethrins to kill mites in the ear canal is often recommended.",
+      "Ear mite sprays\u00a0can also effectively eradicate the infestation."
+    ]
+  },
+  {
+    "disease": "Ehrlichiosis",
+    "symptoms": [
+      "Fever",
+      "Sores",
+      "Inflammation of the blood vessels",
+      "Nose bleeds",
+      "Pale gums",
+      "Swollen lymph nodes",
+      "Breathing problems",
+      "Coughing",
+      "Increased urination",
+      "Eye problems",
+      "Lameness",
+      "Confusion",
+      "Disorientation",
+      "Changes in behavior"
+    ],
+    "treatments": [
+      "Most vets prescribeDoxycycline\u00a0for 6 to 8 weeks."
+    ]
+  },
+  {
+    "disease": "Elbow Dysplasia",
+    "symptoms": [
+      "Limping or lameness",
+      "Favoring one leg",
+      "Abnormal gait",
+      "Swelling of the elbow",
+      "Lethargy",
+      "In pain"
+    ],
+    "treatments": [
+      "Rehabilitation therapy and surgery are common treatment options.",
+      "\u00a0NSAIDs such asCarprofen\u00a0is usually prescribed to reduce discomfort."
+    ]
+  },
+  {
+    "disease": "Fibrosarcoma",
+    "symptoms": [
+      "A lump",
+      "Ulceration and bleeding",
+      "Swelling of the affected area",
+      "Loss of appetite",
+      "Loss in sociability",
+      "In pain"
+    ],
+    "treatments": [
+      "Surgical removal of the tumor is the best and often the recommended course of treatment.",
+      "\u00a0Radiation therapy following surgery is often used to kill the remaining cells."
+    ]
+  },
+  {
+    "disease": "Flea Allergy Dermatitis",
+    "symptoms": [
+      "Severe itching",
+      "Redness of the skin",
+      "Pimple-like, pus-filled bumps",
+      "Hair loss",
+      "Rash",
+      "Constant itching",
+      "Recurrent tapeworm"
+    ],
+    "treatments": [
+      "Flea control products such as Revolution, Bravecto, Advantix II\u00a0are recommended to kill the flea population.",
+      "\u00a0Antimicrobial wipes such as Nootie Dermatology Solutions\u00a0may also help treat infected areas\u00a0"
+    ]
+  },
+  {
+    "disease": "Gastric Torsion",
+    "symptoms": [
+      "Bloat",
+      "Empty retches",
+      "Swollen midsection",
+      "Increase in saliva production",
+      "Difficulty breathing",
+      "Fatigue",
+      "Rapid heartbeat",
+      "Pale gums",
+      "Drop in body temperature",
+      "Restlessness",
+      "Anxiety",
+      "Shock"
+    ],
+    "treatments": [
+      "Vets detect a rotated stomach based off clinical signs, the pet\u2019s medical history, and X-Rays.",
+      "\u00a0If detected, vets perform stabilization procedures followed by surgery to put the stomach back in its place."
+    ]
+  },
+  {
+    "disease": "Gingivitis",
+    "symptoms": [
+      "Bleeding",
+      "Redness",
+      "Swollen gums",
+      "Bad breath"
+    ],
+    "treatments": [
+      "Can be treated by regularly rinsing with Chlorhexidine.",
+      "\u00a0Special medicated gels likeOratene\u00a0can also help in controlling the infection."
+    ]
+  },
+  {
+    "disease": "Glaucoma",
+    "symptoms": [
+      "Pain",
+      "Redness and inflammation",
+      "Dilated pupils",
+      "Sensitivity to light",
+      "Discharge",
+      "Vision loss",
+      "Cloudiness in cornea",
+      "Enlarged eye",
+      "Behavioral changes"
+    ],
+    "treatments": [
+      "Administration ofTimolol eye drops\u00a0is often the preferred way of treating canine glaucoma."
+    ]
+  },
+  {
+    "disease": "Heartworm",
+    "symptoms": [
+      "Cough",
+      "Fatigue",
+      "Trouble breathing",
+      "Reluctance to exercise",
+      "Abnormal lung sounds"
+    ],
+    "treatments": [
+      "An injectable drug called melarsomine is often administered to kill adult worms present in the heart.",
+      "\u00a0Following successful treatment regular deworming usingheartworm medications for dogs\u00a0should be recommended."
+    ]
+  },
+  {
+    "disease": "Hemangiosarcoma",
+    "symptoms": [
+      "Exhaustion",
+      "Depression",
+      "Disinterest in food",
+      "Anemia"
+    ],
+    "treatments": [
+      "Removing the tumor surgically and chemotherapy."
+    ]
+  },
+  {
+    "disease": "High Blood Pressure",
+    "symptoms": [
+      "Rapid heart rate",
+      "Dilated pupils",
+      "Nosebleeds",
+      "Blood in urine",
+      "Difficulty seeing",
+      "Enlarged thyroid gland",
+      "Misshapen kidneys"
+    ],
+    "treatments": [
+      "Calcium channel blockers and beta blockers such asAtenolol\u00a0is recommended.",
+      "Vets commonly prescribe amlodipine to control high blood pressure.",
+      "Low sodium diet is often prescribed following diagnosis."
+    ]
+  },
+  {
+    "disease": "Hip Dysplasia",
+    "symptoms": [
+      "Avoiding activities",
+      "Trouble getting up or sitting down",
+      "Difficulty jumping up",
+      "Lameness"
+    ],
+    "treatments": [
+      "Surgical procedures such as total hip replacement may sometimes be recommended to improve function and reduce pain.",
+      "\u00a0Vets recommend apet bed warmer\u00a0to provide comfort and relieve pain.",
+      "\u00a0Hip and joint supplements such asPet Naturals Hip + Joint\u00a0are usually recommended to improve mobility. \u00a0",
+      "Vets usually prescribe NSAIDs along with Gabapentin\u00a0to reduce pain."
+    ]
+  },
+  {
+    "disease": "Hookworm",
+    "symptoms": [
+      "Anemia",
+      "Bloody or black stool",
+      "Diarrhea",
+      "Pruritus",
+      "Dermatitis on the paw pads"
+    ],
+    "treatments": [
+      "Most multi-parasite dewormer such asIverhart Max\u00a0that kills intestinal worms also kills hookworms."
+    ]
+  },
+  {
+    "disease": "Hot Spots",
+    "symptoms": [
+      "Sensitivity",
+      "Circular, red, swollen patches",
+      "Oozing pus or discharge",
+      "Unpleasant odor",
+      "Hair loss",
+      "Excessive licking, biting, or scratching",
+      "Fear or aggression"
+    ],
+    "treatments": [
+      "Topical medications such as sprays, foams, and creams are often recommended.",
+      "Popular products include Vet's Best Hot Spot Spray , Zymox Topical Spray , and Earthbath Hot Spot Relief."
+    ]
+  },
+  {
+    "disease": "Hyperthyroidism*",
+    "symptoms": [
+      "Weight loss",
+      "Increased appetite",
+      "Excessive shedding",
+      "Vomiting",
+      "Diarrhea",
+      "Hyperactivity",
+      "Enlarged thyroid gland",
+      "Trouble breathing",
+      "Increased thirst and urine",
+      "*Note that cases of Hyperthyroidism are extremely rare in dogs, more commonly found in cats. Dogs with a thyroid condition generally suffer from Hypothyroidism."
+    ],
+    "treatments": [
+      "Antithyroid drugsmethimazole \u00a0and carbimazole is the most common treatment option."
+    ]
+  },
+  {
+    "disease": "Hypothyroidism",
+    "symptoms": [
+      "Thinning fur on the body",
+      "Dull coat",
+      "Excessive shedding",
+      "Thickening of the skin",
+      "Darkened skin color",
+      "Weight gain with decreased appetite",
+      "Lethargy",
+      "Intolerant of exercise",
+      "Intolerant of the cold"
+    ],
+    "treatments": [
+      "Levothyroxine tabs\u00a0are used to correct the thyroid levels and reduce symptoms."
+    ]
+  },
+  {
+    "disease": "Kennel Cough",
+    "symptoms": [
+      "Dry, hacking cough",
+      "\u201cHonking\u201d sound",
+      "Retching up a white, foamy discharge",
+      "Snorting",
+      "Nasal discharge",
+      "Sneezing",
+      "Pink eye"
+    ],
+    "treatments": [
+      "Antibiotic tabs such as Doxycycline, Baytril, andClavamox\u00a0are\u00a0usually the only treatment option."
+    ]
+  },
+  {
+    "disease": "Keratoconjunctivitis Sicca (aka Chronic Dry Eye)",
+    "symptoms": [
+      "Dullness or lack of \u201cshine\u201d to the eyes",
+      "Discharge from the eyes",
+      "Redness around the eyelid",
+      "Sensitivity to light",
+      "Rubbing or scratching at eyes",
+      "Changes to the cornea",
+      "Loss of vision",
+      "Frantic behavior"
+    ],
+    "treatments": [
+      "Medications such as cyclosporine ( Optimmune ,Atopica ) and tacrolimus is recommended to encourage tear production.",
+      "Neurogenic KCS can be treated withPilocarpine."
+    ]
+  },
+  {
+    "disease": "Liver Disease",
+    "symptoms": [
+      "Loss of appetite",
+      "Weight loss",
+      "Weakness or lack of energy",
+      "Depression",
+      "Vomiting and stomach pain",
+      "Increased thirst and urination",
+      "Jaundice"
+    ],
+    "treatments": [
+      "Supplements with milk thistle\u00a0andSAM-E\u00a0can improve liver function.",
+      "\u00a0Pets with liver tumor or cyst may need surgery."
+    ]
+  },
+  {
+    "disease": "Liver Shunt",
+    "symptoms": [
+      "Stunted growth",
+      "Slow weight gain",
+      "Poor muscle development",
+      "Seizures",
+      "Drooling",
+      "Vomiting",
+      "Diarrhea",
+      "Head pressing",
+      "Disorientation",
+      "Depression",
+      "Shaking",
+      "Kidney and bladder infections",
+      "Kidney stones"
+    ],
+    "treatments": [
+      "A surgical procedure to improve blood flow to the liver is often recommended by vets."
+    ]
+  },
+  {
+    "disease": "Lyme Disease",
+    "symptoms": [
+      "Depression",
+      "Fever",
+      "Lameness",
+      "Loss of appetite",
+      "Presence of ticks"
+    ],
+    "treatments": [
+      "Doxycycline andamoxicillin tabs\u00a0are ideally prescribed."
+    ]
+  },
+  {
+    "disease": "Nuclear Sclerosis",
+    "symptoms": [
+      "Opaque, blue-gray lens in the eye",
+      "Minor decrease in vision"
+    ],
+    "treatments": [
+      "Should be regularly monitored for cataract.",
+      "\u00a0No medical treatment is usually recommended."
+    ]
+  },
+  {
+    "disease": "Otitis Externa",
+    "symptoms": [
+      "Scratching or rubbing affected ear",
+      "Head shaking or tilting",
+      "Strong odor coming from ear",
+      "Pain",
+      "Red, thick underside of the ear",
+      "Reluctance to open mouth wide",
+      "Cauliflower-like appearance of the ear",
+      "White discharge (if bacterial)"
+    ],
+    "treatments": [
+      "Anti-microbial and anti-inflammatory topical ointments for dogs such as Otomax\u00a0 are often prescribed by the vet to control the infection.",
+      "\u00a0Vets may also prescribe special otic gels such as Osurnia.\u00a0"
+    ]
+  },
+  {
+    "disease": "Parvo",
+    "symptoms": [
+      "Severe diarrhea",
+      "Lethargy",
+      "Vomiting",
+      "Dehydration",
+      "Blood in stool",
+      "Especially odorous feces"
+    ],
+    "treatments": [
+      "Anti-nausea medication is often recommended.",
+      "\u00a0Intravenous fluid support may be prescribed to replenish electrolyte levels.",
+      "\u00a0Antibiotics such ascephalexin, fluoroquinolones, andampicillin\u00a0may be prescribed."
+    ]
+  },
+  {
+    "disease": "Patellar Luxation",
+    "symptoms": [
+      "Difficulty walking",
+      "Trouble getting up or sitting down",
+      "Taking weight off one leg"
+    ],
+    "treatments": [
+      "Massage therapy is the most popular course of treatment.",
+      "\u00a0Surgical correction may be a good option at certain stages of the condition."
+    ]
+  },
+  {
+    "disease": "Periodontitis",
+    "symptoms": [
+      "Loose teeth",
+      "Bad breath",
+      "Tooth pain",
+      "Sneezing",
+      "Nasal discharge",
+      "Loss of teeth"
+    ],
+    "treatments": [
+      "Teeth with excess tartar buildup may need dental cleaning done by a professional.",
+      "\u00a0Regular brushing with a quality dog toothpaste such as C.E.T. Enzymatic toothpaste\u00a0is recommended.",
+      "\u00a0Oratene Antiseptic Oral Gel\u00a0is often prescribed to control the infection."
+    ]
+  },
+  {
+    "disease": "Periapical abscess",
+    "symptoms": [
+      "Halitosis",
+      "Discolored teeth",
+      "Swollen gums",
+      "Facial swelling"
+    ],
+    "treatments": [
+      "Antibiotics and NSAIDs such as Rimadyl and\u00a0Quellin\u00a0are recommended to quickly control the pain and inflammation.",
+      "In certain cases, tooth extraction or root canal treatment may be necessary."
+    ]
+  },
+  {
+    "disease": "Proliferating gum disease",
+    "symptoms": [
+      "Increase in height and thickness of the gums",
+      "Bleeding",
+      "Bad breath",
+      "Excessive drooling",
+      "Decreased appetite"
+    ],
+    "treatments": [
+      "Vets usually recommend a strict dental care regimen.",
+      "\u00a0Anti-plaque medication such asOra-Clens Plaque Control\u00a0is recommended along with regular brushing with a quality toothpaste such asNylabone Advanced.",
+      "\u00a0Vets may also recommend antibiotics to control severe gum infections."
+    ]
+  },
+  {
+    "disease": "Pruritus",
+    "symptoms": [
+      "Insatiable need to scratch, rub, chew, or lick the affected area"
+    ],
+    "treatments": [
+      "Treatment depends on what\u2019s causing the itchiness.",
+      "\u00a0If it\u2019s caused by seasonal allergies something likeVet's Best Seasonal Allergy Support\u00a0can help.",
+      "\u00a0If the cause is fleas and mites a reputed flea and tick medication such asFrontline Plus\u00a0can reduce the irritation by killing off the parasites. \u00a0"
+    ]
+  },
+  {
+    "disease": "Pyoderma",
+    "symptoms": [
+      "Red inflamed patches",
+      "Hot spots",
+      "Redness, papules, and pustules develop on the hair follicles",
+      "Scabbed-over circular lesions",
+      "Pain in the infected area",
+      "Infection is warm to the touch",
+      "Red streaks on the skin",
+      "Pockets of pus"
+    ],
+    "treatments": [
+      "Bathing withantibacterial shampoo with chlorhexidine\u00a0is recommended.",
+      "\u00a0Oral antibiotics may also be prescribed."
+    ]
+  },
+  {
+    "disease": "Rabies",
+    "symptoms": [
+      "Lethargy",
+      "Fever",
+      "Vomiting",
+      "Excessive drooling",
+      "Sensitivity",
+      "Odd behavior like unchecked aggression, hallucinations, self-mutilation, and ataxia (appearing drunk)"
+    ],
+    "treatments": [
+      "There is no known treatment for rabies.",
+      "\u00a0Timely administration of anti-rabies vaccination is highly recommended."
+    ]
+  },
+  {
+    "disease": "Ringworm",
+    "symptoms": [
+      "Dry, scaly, missing patches of skin",
+      "Lesions"
+    ],
+    "treatments": [
+      "To manage serious cases, vets prescribe anti-fungal meds for dogs such as fluconazole,ketoconazole, terbinafine, griseofulvin, or itraconazole.",
+      "\u00a0Anti-fungal sprays\u00a0and ointments are recommended for treating minor cases."
+    ]
+  },
+  {
+    "disease": "Roundworm",
+    "symptoms": [
+      "Diarrhea",
+      "Pot-bellied appearance",
+      "Vomit",
+      "Cough",
+      "Weight loss",
+      "Dull coat",
+      "Blocked intestine"
+    ],
+    "treatments": [
+      "All quality multi-parasite intestinal dewormer kills roundworms. Some reputed products are Panacur C, Merck Safe-Guard, andBayer Quad."
+    ]
+  },
+  {
+    "disease": "Sarcoptic Mange",
+    "symptoms": [
+      "Persistent itching",
+      "Redness",
+      "Scabs",
+      "Sores"
+    ],
+    "treatments": [
+      "Treating affected areas with a scabicide is the primary course of action.",
+      "Antimicrobial shampoos such asMalaseb\u00a0can help in reducing symptoms",
+      "Lime sulphur dips\u00a0and dips with ivermectin or selamectin is often recommended for as long as 6 weeks."
+    ]
+  },
+  {
+    "disease": "Sebaceous Adenitis",
+    "symptoms": [
+      "Stinking sores",
+      "Scaling skin;",
+      "Hair loss",
+      "Lesions and sores around the head, neck, and back",
+      "Itchiness",
+      "Purplish looking skin"
+    ],
+    "treatments": [
+      "Light brushing to remove skin flakes is often recommended.",
+      "Antimicrobial shampoo such as Malaseb\u00a0andChloraSeb\u00a0can provide symptomatic relief.",
+      "Oil massage and moisturizing shampoos such asUltra Oatmeal\u00a0can remove flaking of the skin."
+    ]
+  },
+  {
+    "disease": "Spondylosis",
+    "symptoms": [
+      "Stiffness",
+      "Limping",
+      "Restricted movement and rotation",
+      "Sensitivity to touch",
+      "Back pain",
+      "Growths that you can feel along the spine"
+    ],
+    "treatments": [
+      "Common NSAIDs such as Rimadyl,Deramaxx, andPrevicox\u00a0are recommended for pain management.",
+      "Acupuncture treatment and physical therapy may help improve quality of life."
+    ]
+  },
+  {
+    "disease": "Tapeworm",
+    "symptoms": [
+      "Diarrhea",
+      "Loss of appetite",
+      "Vomiting",
+      "Weight loss",
+      "Irritability",
+      "You may see tapeworm in your dog\u2019s stool"
+    ],
+    "treatments": [
+      "Broadspectrum dewormers such asSentinel Spectrum\u00a0and Iverhart Max work well in killing tapeworms.",
+      "Specializedtapeworm dewormer\u00a0may also be administered."
+    ]
+  },
+  {
+    "disease": "Upper Respiratory Infection",
+    "symptoms": [
+      "Sneezing",
+      "Discharge from their eyes, nose, and throat",
+      "Fever",
+      "Drooling",
+      "Difficulty swallowing",
+      "Dry, rough cough"
+    ],
+    "treatments": [
+      "Antibiotics such as Doxycycline and Azithromycin is prescribed to reduce the infection."
+    ]
+  },
+  {
+    "disease": "Vestibular Disorder",
+    "symptoms": [
+      "Spinning or walking in circles",
+      "Stumbling",
+      "Lack of coordination",
+      "Head tilting or shaking",
+      "Wide, exaggerated stance",
+      "Falling or rolling to the side",
+      "Involuntary drifting or jerking eye movements (nystagmus)",
+      "Abnormal eyeball alignment",
+      "Vomiting",
+      "Motion sickness",
+      "Loss of appetite and thirst",
+      "Sleeping on hard surfaces",
+      "Sleeplessness"
+    ],
+    "treatments": [
+      "Dogs need to be restricted from climbing stairs or high places to prevent serious injury.",
+      "Anti-nausea medication such asCerenia\u00a0may also be prescribed."
+    ]
+  },
+  {
+    "disease": "Von Willebrand\u2019s Disease",
+    "symptoms": [
+      "Bleeding gums",
+      "Bloody urine",
+      "Frequent nosebleeds",
+      "Bruises easily",
+      "Inability to clot"
+    ],
+    "treatments": [
+      "Different types of blood transfusions may be required to control severe conditions."
+    ]
+  },
+  {
+    "disease": "Whipworm",
+    "symptoms": [
+      "Bloody diarrhea",
+      "Dehydration",
+      "Weight loss",
+      "Lethargy",
+      "Anemia"
+    ],
+    "treatments": [
+      "All broadspectrum intestinal dewormers kill whipworms. Products include Drontal Plus, Interceptor Plus, and many others.",
+      "\u00a0Some meds such asTrifexis\u00a0prevents fleas and heartworms along with controlling intestinal parasites."
+    ]
+  }
+]

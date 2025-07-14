@@ -1,187 +1,252 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="description"
-        content="Veterinarian Decision Support System to reduce workload, minimize diagnostic errors, and Enhance the decision-making process in veterinary practices by recommend possible diagnostic tests and treatments">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta
+      name="description"
+      content="Veterinarian Decision Support System to reduce workload, minimize diagnostic errors, and Enhance the decision-making process in veterinary practices by recommend possible diagnostic tests and treatments"
+    >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>VetDSS Blog</title>
+    <title>VetDSS Blog</title>
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?">
-  <link rel="manifest" href="/site.webmanifest?">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-touch-icon.png?"
+    >
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon-32x32.png?"
+    >
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon-16x16.png?"
+    >
+    <link rel="manifest" href="/site.webmanifest?">
 
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+      rel="stylesheet"
+    >
 
-  <link rel="stylesheet" href="./static/css/bulma.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="stylesheet" href="./static/css/bulma.min.css" >
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css" >
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css" >
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css" >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    >
+    <link rel="stylesheet" href="./static/css/index.css" >
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="./static/js/fontawesome.all.min.js"></script>
-  <script src="./static/js/bulma-carousel.min.js"></script>
-  <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/index.js"></script>
-</head>
-<body>
-
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">VetDSS: Decision Support System For Veterinarians </h1>
-
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- Colab Link. -->
-              <span class="link-block">
-                <a href="https://colab.research.google.com/drive/1Iyac5p0w0t_sLPmJwqWQJzaNmpOLQ9Bi?usp=sharing"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fa fa-code"></i>
-              </span>
-                  <span>Colab Code</span>
-                </a>
-              </span>
-              <!-- Code Link. -->
-              <span class="link-block">
-                <a href="https://github.com/newtonhaven/vet-dss-llm"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Github Code</span>
-                  </a>
-              </span>
-              <!-- Dataset Link. -->
-              <span class="link-block">
-                <a href="datasets.html"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fa fa-database"></i>
-                  </span>
-                  <span>Datasets</span>
-                  </a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">VetDSS</span> helps veterinars to reduce workload, minimize diagnostic errors, and Enhance the decision-making process in veterinary practices by recommend possible diagnostic tests and treatments.
-      </h2>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Example</h2>
-        <div class="publication-video">
-            <img src="./static/images/example.gif" alt="Example GIF" width="960" height="569">
-        </div>
-      </div>
-    </div>
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-            <p>
-            VetDSS is a decision support system designed to assist veterinarians in their daily practice.
-            </p>
-            <p>
-            Our system helps reduce workload, minimize diagnostic errors, and enhance the decision-making process by recommending possible diagnostic tests and treatments.
-            By leveraging advanced algorithms and a comprehensive database, VetDSS provides accurate and timely suggestions to support veterinarians in delivering high-quality care.
-            </p>
-            <p>
-            VetDSS integrates seamlessly into veterinary practices, offering an intuitive interface and robust functionality. It is designed to be a valuable tool for both experienced veterinarians and those new to the field, ensuring that all users can benefit from its capabilities.
-            </p>
-        </div>
-      </div>
-    </div>
-    <br><br>
-    <!--/ Abstract. -->
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <!-- Visual Effects. -->
-        <div class="column">
-          <div class="content">
-            <h2 class="title is-3">Performance</h2>
-            <p>
-              Using VetDSS, which leverages 4-bit quantization and the Mistral 7B LLM model, you can achieve more efficient and better performance in veterinary decision support.
-            </p>
-          </div>
-        </div>
-        <!--/ Visual Effects. -->
-  
-        <!-- Matting. -->
-        <div class="column">
-          <h2 class="title is-3">Dataset</h2>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
           <div class="columns is-centered">
-            <div class="column content">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">
+                VetDSS: Decision Support System For Veterinarians
+              </h1>
+
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <!-- Colab Link. -->
+                  <span class="link-block">
+                    <a
+                      href="https://colab.research.google.com/drive/1Iyac5p0w0t_sLPmJwqWQJzaNmpOLQ9Bi?usp=sharing"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="fa fa-code"></i>
+                      </span>
+                      <span>Colab Code</span>
+                    </a>
+                  </span>
+                  <!-- Code Link. -->
+                  <span class="link-block">
+                    <a
+                      href="https://github.com/newtonhaven/vet-dss-llm"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Github Code</span>
+                    </a>
+                  </span>
+                  <!-- Dataset Link. -->
+                  <span class="link-block">
+                    <a
+                      href="datasets.html"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="fa fa-database"></i>
+                      </span>
+                      <span>Datasets</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero teaser">
+      <div class="container is-max-desktop">
+        <div class="hero-body">
+          <h2 class="subtitle has-text-centered">
+            <span class="dnerf">VetDSS</span> helps veterinars to reduce
+            workload, minimize diagnostic errors, and Enhance the
+            decision-making process in veterinary practices by recommend
+            possible diagnostic tests and treatments.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <br class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Example</h2>
+            <div class="publication-video">
+              <img
+                src="llmVet.webp"
+                alt="Example GIF"
+                width="960"
+                height="569"
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
               <p>
-                For testing, we used the following datasets: 
-                <a href="https://www.huggingface.co/datasets/infinite-dataset-hub/VetPetCare">VetPetCare</a>, 
-                <a href="https://www.kaggle.com/datasets/gracehephzibahm/animal-disease">Animal Disease</a>, 
-                and data from the <a href="https://www.aspca.org/">ASPCA</a>. 
-                Additionally, VetDSS can be fed with self-collected data to enhance its performance.
+                VetDSS is a decision support system designed to assist
+                veterinarians in their daily practice.
+              </p>
+              <p>
+                Our system helps reduce workload, minimize diagnostic errors,
+                and enhance the decision-making process by recommending possible
+                diagnostic tests and treatments. By leveraging advanced
+                algorithms and a comprehensive database, VetDSS provides
+                accurate and timely suggestions to support veterinarians in
+                delivering high-quality care.
+              </p>
+              <p>
+                VetDSS integrates seamlessly into veterinary practices, offering
+                an intuitive interface and robust functionality. It is designed
+                to be a valuable tool for both experienced veterinarians and
+                those new to the field, ensuring that all users can benefit from
+                its capabilities.
               </p>
             </div>
-  
+          </div>
+        </div>
+        <br><br>
+        <!--/ Abstract. -->
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <!-- Visual Effects. -->
+            <div class="column">
+              <div class="content">
+                <h2 class="title is-3">Performance</h2>
+                <p>
+                  Using VetDSS, which leverages 4-bit quantization and the
+                  Mistral 7B LLM model, you can achieve more efficient and
+                  better performance in veterinary decision support.
+                </p>
+              </div>
+            </div>
+            <!-- Matting. -->
+            <div class="column">
+              <h2 class="title is-3">Dataset</h2>
+              <div class="columns is-centered">
+                <div class="column content">
+                  <p>
+                    For testing, we used the following datasets:
+                    <a
+                      href="https://www.huggingface.co/datasets/infinite-dataset-hub/VetPetCare"
+                      >VetPetCare</a
+                    >,
+                    <a
+                      href="https://www.kaggle.com/datasets/gracehephzibahm/animal-disease"
+                      >Animal Disease</a
+                    >, and data from the
+                    <a href="https://www.aspca.org/">ASPCA</a>. Additionally,
+                    VetDSS can be fed with self-collected data to enhance its
+                    performance.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/ Matting. -->
+        </div>
+      <br><br>
+        <!-- PRESENTATION. -->
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Presentation</h2>
+            <div class="publication-video">
+              <iframe
+                src="https://docs.google.com/presentation/d/e/2PACX-1vTpzZ6i4R6nDl7l9F8zkDAOY1UZNrQ22B1Rzce1RQc8QGpr_kMsxhG2UAArMqNTJMB8vpOyUSkrSiDT/embed?start=false&loop=false&delayms=30000"
+                title="VetDSS Presentation"
+                width="1920"
+                height="1080"
+                allowfullscreen="true"
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      <!--/ PRESENTATION. -->
+    </section>
+    <br><br>
+    <footer class="footer">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
+              <p>
+                Website is taken from
+                <a
+                  rel="license"
+                  href="https://github.com/nerfies/nerfies.github.io"
+                >
+                  here</a
+                >
+                under CC 4.0 License.
+              </p>
+              <p>
+                <a href="https://mistral.ai/news/announcing-mistral-7b/"
+                  >Mistral 7B</a
+                >
+                is used under the Apache 2.0 License.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <!--/ Matting. -->
-    </div>
-<br><br>
-    <!-- PRESENTATION. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Presentation</h2>
-        <div class="publication-video">
-          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTpzZ6i4R6nDl7l9F8zkDAOY1UZNrQ22B1Rzce1RQc8QGpr_kMsxhG2UAArMqNTJMB8vpOyUSkrSiDT/embed?start=false&loop=false&delayms=30000" 
-          frameborder="0" width="960" height="569" allowfullscreen="true" 
-          mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ PRESENTATION. -->
-  </div>
-</section>
-<br><br>
-<footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            Website is taken from <a rel="license" href="https://github.com/nerfies/nerfies.github.io"> here</a> under CC 4.0 License.
-          </p>
-          <p>
-            <a href="https://mistral.ai/news/announcing-mistral-7b/">Mistral 7B</a> is used under the Apache 2.0 License.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-</body>
+    </footer>
+  </body>
 </html>

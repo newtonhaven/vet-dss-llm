@@ -2,7 +2,7 @@
 VetDSS helps veterinars to reduce workload, minimize diagnostic errors, and Enhance the decision-making process in veterinary practices by recommend possible diagnostic tests and treatments. 
 
 # [Blog Website](https://newtonhaven.github.io/vet-dss-llm/)
-Check out our [blog](https://newtonhaven.github.io/vet-dss-llm/) for more information. 
+Check out [blog](https://newtonhaven.github.io/vet-dss-llm/) for more information. 
 
 ## Code
 To see the code in action, run it on Google Colab: [Google Colab Link](https://colab.research.google.com/drive/1Iyac5p0w0t_sLPmJwqWQJzaNmpOLQ9Bi?usp=sharing)
