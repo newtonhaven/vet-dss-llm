@@ -32,6 +32,11 @@ flowchart LR
     E --> F[Mistral-7B-Instruct v0.3<br>4-bit NF4]
     F --> G[Possible illnesses +<br>symptoms to confirm each]
 ```
+> [!NOTE]
+> Saved space from 4-Bit Quantization
+> fp16      : 14.50 GB
+> 4-bit NF4 : 4.03 GB ->
+> Reduction : 72%
 
 1. **Structured input.** Instead of free text, the user picks the species (dog or cat), enters an age, and ticks symptoms from a fixed list of 26. Limiting input to known terms keeps queries close to the vocabulary of the knowledge base and reduces off-topic prompts.
 2. **Retrieval.** Every passage in the knowledge base is embedded once with `sentence-transformers/all-MiniLM-L6-v2` and stored in a FAISS `IndexFlatL2` index. At query time, the five closest passages are retrieved.
