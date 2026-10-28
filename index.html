@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta
       name="description"
-      content="Veterinarian Decision Support System to reduce workload, minimize diagnostic errors, and Enhance the decision-making process in veterinary practices by recommend possible diagnostic tests and treatments"
+      content="VetDSS suggests possible illnesses for a cat or dog from a symptom checklist, and lists the additional symptoms a veterinarian should check. It uses Mistral-7B-Instruct v0.3 in 4-bit with retrieval-augmented generation over a small veterinary knowledge base."
     >
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>VetDSS Blog</title>
+    <title>VetDSS: Veterinary Decision Support with a Local LLM</title>
 
     <link
       rel="apple-touch-icon"
@@ -57,7 +57,7 @@
           <div class="columns is-centered">
             <div class="column has-text-centered">
               <h1 class="title is-1 publication-title">
-                VetDSS: Decision Support System For Veterinarians
+                VetDSS: Veterinary Decision Support with a Local LLM
               </h1>
 
               <div class="column has-text-centered">
@@ -110,11 +110,18 @@
       <div class="container is-max-desktop">
         <div class="hero-body">
           <h2 class="subtitle has-text-centered">
-            <span class="dnerf">VetDSS</span> helps veterinars to reduce
-            workload, minimize diagnostic errors, and Enhance the
-            decision-making process in veterinary practices by recommend
-            possible diagnostic tests and treatments.
+            <span class="dnerf">VetDSS</span> suggests possible illnesses for a
+            cat or dog from a checklist of symptoms, and lists the additional
+            symptoms a veterinarian should check to confirm or rule out each
+            one.
           </h2>
+          <article class="message is-warning">
+            <div class="message-body">
+              <strong>Research and learning project, not a medical device.</strong>
+              Outputs can be wrong or incomplete and must not replace an
+              examination by a licensed veterinarian.
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -127,7 +134,7 @@
             <div class="publication-video">
               <img
                 src="llmVet.webp"
-                alt="Example GIF"
+                alt="VetDSS form: species, age and symptom checkboxes, with the generated list of possible illnesses"
                 width="960"
                 height="569"
               >
@@ -140,39 +147,96 @@
             <h2 class="title is-3">Abstract</h2>
             <div class="content has-text-justified">
               <p>
-                VetDSS is a decision support system designed to assist
-                veterinarians in their daily practice.
+                Veterinarians work under time pressure, and symptoms in animals
+                often overlap between conditions. VetDSS is an assistant that
+                correlates reported symptoms with possible illnesses, points out
+                symptoms that may have been overlooked, and suggests what to
+                check next, instead of giving one confident diagnosis.
               </p>
               <p>
-                Our system helps reduce workload, minimize diagnostic errors,
-                and enhance the decision-making process by recommending possible
-                diagnostic tests and treatments. By leveraging advanced
-                algorithms and a comprehensive database, VetDSS provides
-                accurate and timely suggestions to support veterinarians in
-                delivering high-quality care.
+                The user picks the species (dog or cat), enters an age and ticks
+                symptoms from a fixed list of 26. The case is matched against a
+                small veterinary knowledge base, and
+                <strong>Mistral-7B-Instruct v0.3</strong>, loaded in 4-bit,
+                lists candidate illnesses together with the additional symptoms
+                that would confirm each one, and recommends consulting a
+                veterinarian.
               </p>
               <p>
-                VetDSS integrates seamlessly into veterinary practices, offering
-                an intuitive interface and robust functionality. It is designed
-                to be a valuable tool for both experienced veterinarians and
-                those new to the field, ensuring that all users can benefit from
-                its capabilities.
+                VetDSS is a research and learning project. Its results come from
+                a handful of hand-checked cases rather than a benchmark, and it
+                is not a medical device.
               </p>
             </div>
           </div>
         </div>
         <br><br>
         <!--/ Abstract. -->
+        <!-- How it works. -->
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered">How it works</h2>
+            <div class="content">
+              <ol>
+                <li>
+                  <strong>Structured input.</strong> Species, age and symptoms
+                  from a fixed list of 26. Limiting input to known terms keeps
+                  queries close to the vocabulary of the knowledge base and
+                  reduces off-topic prompts.
+                </li>
+                <li>
+                  <strong>Retrieval.</strong> Every passage in the knowledge base
+                  is embedded once with
+                  <code>sentence-transformers/all-MiniLM-L6-v2</code> and stored
+                  in a FAISS <code>IndexFlatL2</code> index. At query time, the
+                  five closest passages are retrieved.
+                </li>
+                <li>
+                  <strong>Generation.</strong> The retrieved passages, the case
+                  details and a fixed instruction set are sent to
+                  Mistral-7B-Instruct v0.3 through its chat template.
+                </li>
+                <li>
+                  <strong>Output.</strong> Candidate illnesses, the extra
+                  symptoms that would confirm each, and a recommendation to
+                  consult a veterinarian.
+                </li>
+              </ol>
+              <p>
+                The model is instructed to be clear, concise and actionable; to
+                list several fitting illnesses with the symptoms needed to
+                confirm each; to avoid speculation and alarming language; to put
+                the animal's wellbeing first; and to say so rather than invent an
+                answer when it does not know.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <!--/ How it works. -->
         <div class="container is-max-desktop">
           <div class="columns is-centered">
             <!-- Visual Effects. -->
             <div class="column">
               <div class="content">
-                <h2 class="title is-3">Performance</h2>
+                <h2 class="title is-3">Model and results</h2>
                 <p>
-                  Using VetDSS, which leverages 4-bit quantization and the
-                  Mistral 7B LLM model, you can achieve more efficient and
-                  better performance in veterinary decision support.
+                  Mistral-7B-Instruct v0.3 (Apache 2.0) is loaded with 4-bit
+                  NF4 quantization through <code>bitsandbytes</code>, which cuts
+                  its memory footprint from 14.50 GB (fp16) to 4.03 GB, a
+                  72% reduction. Decoding uses sampling at temperature 0.7 with
+                  up to 250 new tokens, so the same input can give different
+                  answers.
+                </p>
+                <p>
+                  Early experiments were qualitative checks on single cases, not
+                  a benchmark. For a feline upper respiratory infection (URI)
+                  case, the model without reference material listed URI second;
+                  with retrieved passages it named URI as the most likely cause,
+                  with rhinitis and feline herpesvirus as alternatives. On a long,
+                  mixed symptom list, cleaning the data, adding retrieved context
+                  and tightening the instructions produced answers that kept
+                  conditions separate and listed the missing symptoms for each.
                 </p>
               </div>
             </div>
@@ -182,18 +246,22 @@
               <div class="columns is-centered">
                 <div class="column content">
                   <p>
-                    For testing, we used the following datasets:
+                    The knowledge base is built from the
                     <a
                       href="https://www.huggingface.co/datasets/infinite-dataset-hub/VetPetCare"
                       >VetPetCare</a
-                    >,
+                    >
+                    and
                     <a
                       href="https://www.kaggle.com/datasets/gracehephzibahm/animal-disease"
                       >Animal Disease</a
-                    >, and data from the
-                    <a href="https://www.aspca.org/">ASPCA</a>. Additionally,
-                    VetDSS can be fed with self-collected data to enhance its
-                    performance.
+                    >
+                    datasets and <a href="https://www.aspca.org/">ASPCA</a>
+                    articles. It was cleaned (formats normalized, special
+                    characters fixed, unclear entries corrected) and is stored as
+                    structured JSON and CSV in the repository's
+                    <code>Data/</code> folder. See the
+                    <a href="datasets.html">Datasets</a> page for details.
                   </p>
                 </div>
               </div>
@@ -202,6 +270,40 @@
           <!--/ Matting. -->
         </div>
       <br><br>
+        <!-- Limitations. -->
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered">Limitations</h2>
+            <div class="content">
+              <ul>
+                <li>
+                  <strong>No quantitative evaluation yet.</strong> Results come
+                  from a handful of hand-checked cases.
+                </li>
+                <li>
+                  <strong>Small, uneven knowledge base.</strong> There is more
+                  dog material than cat material, and coverage of rare
+                  conditions is thin.
+                </li>
+                <li>
+                  <strong>Fixed symptom list.</strong> Only 26 symptoms can be
+                  selected, so conditions with other signs cannot be described.
+                </li>
+                <li>
+                  <strong>Generic embeddings.</strong>
+                  <code>all-MiniLM-L6-v2</code> is not trained on veterinary
+                  text, so related terms can be missed.
+                </li>
+                <li>
+                  <strong>Sampling output.</strong> With temperature 0.7, the
+                  same input can give different answers.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <!--/ Limitations. -->
         <!-- PRESENTATION. -->
         <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
@@ -241,7 +343,12 @@
                 <a href="https://mistral.ai/news/announcing-mistral-7b/"
                   >Mistral 7B</a
                 >
-                is used under the Apache 2.0 License.
+                is used under the Apache 2.0 License. Project code is released
+                under the
+                <a href="https://github.com/newtonhaven/vet-dss-llm/blob/main/LICENSE"
+                  >MIT License</a
+                >; dataset content remains under the terms of its original
+                sources.
               </p>
             </div>
           </div>
